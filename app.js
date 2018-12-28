@@ -16,7 +16,7 @@ app.use(router)
 
 app.get("/", (req, res) => {
   console.log("Responding to root route")
-  res.send("Hello from ROOOOOOT")
+  res.send("You have found the root route")
 })
 
 const PORT = process.env.PORT || 3002
