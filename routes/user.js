@@ -2,11 +2,12 @@
 const express = require('express')
 const mysql = require('mysql')
 const router = express.Router()
+
+
 router.get('/messages', (req, res) => {
   console.log("Show some money for this...")
   res.end()
 })
-
 
 router.get("/users", (req, res) => {
     const connection = getConnection()
