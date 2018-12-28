@@ -19,8 +19,8 @@ app.get("/", (req, res) => {
   res.send("Hello from ROOOOOOT")
 })
 
-// localhost:3002
-// testing git
-app.listen(3002, () => {
-  console.log("Server for the app is up and listening on 3002...")
+const PORT = process.env.PORT || 
+// localhost:PORT
+app.listen(PORT, () => {
+  console.log("Server for the app is up and listening on: " + PORT)
 })
