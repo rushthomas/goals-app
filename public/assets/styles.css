@@ -4,16 +4,16 @@ body{
     color: #989898;
 }
 
-#todo-table{
+#goals-input{
     position: relative;
-    width: 50%;
+    width: 80%;
     background: #090d13;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
 }
 
-#todo-table form:after{
+#goals-input form:after{
     margin: 0;
     content: '';
     display: block;
