@@ -20,6 +20,7 @@ app.get("/", (req, res) => {
 })
 
 // localhost:3002
+// testing git
 app.listen(3002, () => {
   console.log("Server for the app is up and listening on 3002...")
 })
