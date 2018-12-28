@@ -22,9 +22,6 @@ router.get("/users", (req, res) => {
     })
   })
 
-  // testing
-  // var displayData = queryString
-  // var tbl = js.CreateTable(displayData)
 
 const pool = mysql.createPool({
     connectionLimit: 10,
