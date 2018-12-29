@@ -24,7 +24,7 @@ input[type="text"]{
     width: 70%;
     padding: 20px;
     background:#181c22;
-    border: 0;
+    border: 20px;
     float: left;
     font-size: 20px;
     color: #989898;
@@ -35,7 +35,7 @@ button{
     width: 30%;
     float: left;
     background: #23282e;
-    border: 15px;
+    border: 20px;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
@@ -44,7 +44,7 @@ button{
 
 ul{
     list-style-type: none;
-    padding: 0;
+    padding: 20px;
     margin: 0;
 }
 
