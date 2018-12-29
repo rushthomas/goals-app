@@ -21,8 +21,8 @@
       var tbl = js.CreateTable(displayData, 'id', 'first_name', 'last_name')
     </script>
 
+  -->
 
-USE THIS AS THE FORM THAT WORKS!
     <div id='goals-input'>
             <form action="/user_create" method="POST">
                 <input type='text' placeholder="Goal category" name="create_first_name"/>
@@ -30,30 +30,7 @@ USE THIS AS THE FORM THAT WORKS!
                 <button> Submit </button>
             </form>
         </div>
--->
-<div id='goals-input'>
-        <form action="/user_create" method="POST">
-            <input type='text' placeholder="Goal category" name="create_first_name"/>
-            <input type='text' placeholder="What goal would you like to begin tracking?" name="create_last_name"/>
-              <input type='button' onclick='displayGoalCat()' value='Submit'/>
-        </form>
-    </div>
 
-<!-- function which creates a variable that holds the value input into the first name form field. -->
-
-      <script type="text/javascript">
-        function displayGoalCat(){
-        	var create_first_name = document.getElementById('create_first_name').value;
-        	document.getElementById('boldStuff2').innerHTML = create_first_name;
-        }
-      </script>
-
-      <p>Here is the goal you just entered! <b id='boldStuff2'></b> </p>
-
-      <!--  <p>Welcome to the site <b id='boldStuff2'>dude</b> </p>
-        <input type='text' id='create_first_name' value='' />
-        <input type='button' onclick='displayGoalCat()' value='Change Text'/>
- -->
 
 
     </body>
