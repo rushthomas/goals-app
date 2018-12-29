@@ -35,7 +35,7 @@ button{
     width: 30%;
     float: left;
     background: #23282e;
-    border: 0;
+    border: 15px;
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
