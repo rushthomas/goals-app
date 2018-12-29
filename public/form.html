@@ -30,5 +30,21 @@
             </form>
         </div>
 
+
+
+
+      <script type="text/javascript">
+        function displayGoalCat(){
+        	var create_first_name = document.getElementById('create_first_name').value;
+        	document.getElementById('boldStuff2').innerHTML = create_first_name;
+        }
+
+      </script>
+        <p>Welcome to the site <b id='boldStuff2'>dude</b> </p>
+        <input type='text' id='create_first_name' value='Enter Text Here' />
+        <input type='button' onclick='displayGoalCat()' value='Change Text'/>
+
+
+
     </body>
 </html>
