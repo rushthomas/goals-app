@@ -13,16 +13,24 @@ const router = require('./routes/user.js')
 
 app.use(router)
 
-
 app.get("/", (req, res) => {
   console.log("Responding to root route")
   res.send("You have found the root route")
 })
 
+
+
+
+
+
 //calling the goals.ejs page to be rendered at /users
 app.get('/users', function(req, res) {
     res.render('/views/goals');
 });
+
+
+
+
 
 const PORT = process.env.PORT || 3002
 // localhost:PORT
