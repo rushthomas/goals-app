@@ -18,9 +18,9 @@ router.get("/users", (req, res) => {
         res.sendStatus(500)
         return
       }
-      // took out the below to test my goals.ejs rendering
-      // res.json([rows])
-      res.render('/views/goals')
+      
+      res.json([rows])
+      // res.render('/views/goals')
     })
   })
 
