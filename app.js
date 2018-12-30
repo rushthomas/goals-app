@@ -19,6 +19,11 @@ app.get("/", (req, res) => {
   res.send("You have found the root route")
 })
 
+//calling the goals.ejs page to be rendered at /users
+app.get('/users', function(req, res) {
+    res.render('/views/goals');
+});
+
 const PORT = process.env.PORT || 3002
 // localhost:PORT
 app.listen(PORT, () => {
