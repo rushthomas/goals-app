@@ -18,10 +18,12 @@ router.get("/users", (req, res) => {
         res.sendStatus(500)
         return
       }
-      res.json([rows])
+      // took out the below to test my goals.ejs rendering
+      // res.json([rows])
+      res.render('/views/goals')
     })
   })
-  
+
 
 const pool = mysql.createPool({
     connectionLimit: 10,
