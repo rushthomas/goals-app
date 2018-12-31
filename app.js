@@ -29,8 +29,8 @@ app.get('/trial-users', (req, res) => {
 // app.get('/users', users);
 //calling the goals.ejs page to be rendered at /users
 
-// app.get('/users', function(req, res) {
-  //  res.render('/views/goals')
+ app.get('/users', function(req, res) {
+    res.render('/views/goals')
 })
 
 const PORT = process.env.PORT || 3002
