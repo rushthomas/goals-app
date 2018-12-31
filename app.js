@@ -5,7 +5,7 @@ const morgan = require('morgan')
 const mysql = require('mysql')
 const bodyParser = require('body-parser')
 
-var users = require('./routes/users')
+// var users = require('./routes/users')
 
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static('./public'))
@@ -17,17 +17,17 @@ app.use(router)
 
 app.get("/", (req, res) => {
   console.log("Responding to root route")
-  res.render('/public/form.html')
+  res.send('fuck the what')
 })
 
 
-app.get('/users', users);
+// app.get('/users', users);
 //calling the goals.ejs page to be rendered at /users
-/*
+
 app.get('/users', function(req, res) {
-    res.render('/views/goals');
-});
-*/
+    res.render('/views/goals')
+})
+
 
 
 const PORT = process.env.PORT || 3002
