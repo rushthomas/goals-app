@@ -20,6 +20,10 @@ app.get("/", (req, res) => {
   res.send('fuck the what')
 })
 
+app.get('/trial-users', (req, res) => {
+
+  res.end()
+}
 
 // app.get('/users', users);
 //calling the goals.ejs page to be rendered at /users
