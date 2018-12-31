@@ -1,11 +1,7 @@
 <html>
     <head>
         <title>Goals App</title>
-      <!--
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-             crossorigin="anonymous"></script>
-        <script src='./assets/todo-list.js' type='text/javascript'></script>
-      -->
+
         <link href='./assets/styles.css' rel='stylesheet' type='text/css' />
 
 
@@ -15,13 +11,6 @@
         Create a user by filling out the fields below. Please.
     </h1>
 
-<!-- added the below as an attempt to get the table to be displayed
-    <script> $(document)
-      var displayData = queryString
-      var tbl = js.CreateTable(displayData, 'id', 'first_name', 'last_name')
-    </script>
-
-  -->
 
     <div id='goals-input'>
             <form action="/user_create" method="POST">
@@ -35,8 +24,6 @@
           'https://tranquil-sierra-80677.herokuapp.com/users'">
           View List of All Goals Here
         </button>
-
-<% include ./views/goals.ejs %>
 
     </body>
 </html>

@@ -5,6 +5,8 @@ const morgan = require('morgan')
 const mysql = require('mysql')
 const bodyParser = require('body-parser')
 
+var users = require('./routes/users')
+
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(express.static('./public'))
 app.use(morgan('short'))
@@ -19,12 +21,13 @@ app.get("/", (req, res) => {
 })
 
 
-
+app.get('/users',
 //calling the goals.ejs page to be rendered at /users
+/*
 app.get('/users', function(req, res) {
     res.render('/views/goals');
 });
-
+*/
 
 
 const PORT = process.env.PORT || 3002
