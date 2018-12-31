@@ -31,9 +31,10 @@ input[type="text"]{
 }
 
 button{
+    margin: auto;
     padding: 20px;
     width: 30%;
-    float: center;
+    float: none;
     background: #23282e;
     border: 20px;
     box-sizing: border-box;
