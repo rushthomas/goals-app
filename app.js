@@ -15,11 +15,8 @@ app.use(router)
 
 app.get("/", (req, res) => {
   console.log("Responding to root route")
-  res.send("You have found the root route")
+  res.send('./public/form.html')
 })
-
-
-
 
 
 
@@ -27,8 +24,6 @@ app.get("/", (req, res) => {
 app.get('/users', function(req, res) {
     res.render('/views/goals');
 });
-
-
 
 
 
