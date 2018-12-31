@@ -3,11 +3,13 @@ const express = require('express')
 const mysql = require('mysql')
 const router = express.Router()
 
+var jsonRequestUrl = "https://tranquil-sierra-80677.herokuapp.com/users";
 
 router.get('/messages', (req, res) => {
   console.log("Show some money for this...")
   res.end()
 })
+
 
 router.get("/users", (req, res) => {
     const connection = getConnection()
