@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 })
 
 app.get('/trial-users', (req, res) => {
-
+  console.log("responding to trial users route")
   res.end()
 }
 
