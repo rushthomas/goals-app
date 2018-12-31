@@ -29,6 +29,8 @@ app.get('/trial-users', (req, res) => {
 // app.get('/users', users);
 //calling the goals.ejs page to be rendered at /users
 
+
+// I tried to comment this out, but it broke the app. 
  app.get('/users', function(req, res) {
     res.render('/views/goals')
 })
