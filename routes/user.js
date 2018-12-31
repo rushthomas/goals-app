@@ -19,8 +19,8 @@ router.get("/users", (req, res) => {
         return
       }
 
-      // res.json([rows])
-      res.render('/views/goals')
+      res.json([rows])
+      // res.render('/views/goals')
     })
   })
 
