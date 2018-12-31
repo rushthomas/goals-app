@@ -20,11 +20,12 @@ app.get("/", (req, res) => {
   res.send('fuck the what')
 })
 
+/*
 app.get('/trial-users', (req, res) => {
   console.log("responding to trial users route")
   res.send('trial users worked')
 }
-
+*/
 // app.get('/users', users);
 //calling the goals.ejs page to be rendered at /users
 
