@@ -21,7 +21,7 @@ app.get("/", (req, res) => {
 })
 
 
-app.get('/users',
+app.get('/users', users);
 //calling the goals.ejs page to be rendered at /users
 /*
 app.get('/users', function(req, res) {
