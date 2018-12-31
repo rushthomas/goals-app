@@ -15,7 +15,7 @@ app.use(router)
 
 app.get("/", (req, res) => {
   console.log("Responding to root route")
-  res.send('./public/form.html')
+  res.send('/public/form.html')
 })
 
 
