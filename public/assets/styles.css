@@ -13,6 +13,7 @@ body{
     box-sizing: border-box;
 }
 
+
 #goals-input form:after{
     margin: 0;
     content: '';
@@ -31,9 +32,10 @@ input[type="text"]{
 }
 
 button{
+    position: relative;
     margin: 0 auto;
     padding: 20px;
-    width: 30%;
+    width: 80%;
     float: none;
     background: #23282e;
     border: 20px;

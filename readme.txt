@@ -8,3 +8,10 @@ Importing:
 
 git push heroku master
     push all code in current directory to heroku
+
+
+ejs
+    embedded javascript
+    when you want to refer to a variable, use <%= %>
+    when you simply insert JS, use <% %>
+    
