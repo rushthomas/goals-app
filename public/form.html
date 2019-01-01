@@ -28,6 +28,20 @@
       </div>
 
   </div>
+<script>
+  ajax.get('herokuapp.com/3002/users', (response => {
+  const users = response.data
+  users.forEach(user => {
+      const newElement = document.createElement('div')
+      const newContent = document.createTextNode(user.name);
+      // add the text node to the newly created div
+      newDiv.appendChild(newContent);
+      // add the newly created element and its content into the DOM
+      const documentRoot = document.getElementById("root");
+      document.body.insertBefore(newElement, documentRoot);
+  })
+}))
+</script>
 
     </body>
 </html>
